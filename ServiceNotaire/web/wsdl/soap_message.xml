@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <web:get>
+            <eid>0000-0001-7834-0417</eid>
+        </web:get>
+    </soapenv:Body>
+</soapenv:Envelope>

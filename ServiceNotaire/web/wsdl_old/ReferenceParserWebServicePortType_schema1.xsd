@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://webservice/" xmlns:tns="http://webservice/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="parse" type="tns:parse"/>
+
+  <xs:element name="parseResponse" type="tns:parseResponse"/>
+
+  <xs:complexType name="parse">
+    <xs:sequence>
+      <xs:element name="reference" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="parseResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:Reference" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Reference">
+    <xs:sequence>
+      <xs:element name="authors" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="publicationDate" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="source" type="xs:string" minOccurs="0"/>
+      <xs:element name="title" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

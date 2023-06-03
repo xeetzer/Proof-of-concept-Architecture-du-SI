@@ -1,0 +1,32 @@
+services:
+  correction:
+    build: ./ServiceCorrectionOrthographique
+    ports:
+      - "8081:8081"
+    healthcheck:
+      test: curl --fail http://0.0.0.0:8081/ws/ServiceCorrection?wsdl || exit 1
+      interval: 2s
+      retries: 10
+      timeout: 10s
+
+  trouver-notaire:
+    build: ./ServiceTrouverUnNotaire
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./ServiceTrouverUnNotaire/liste_notaires.csv:/liste_notaires.csv"
+    healthcheck:
+      test: curl --fail http://0.0.0.0:8080/ws/ServiceTrouverNotaire?wsdl || exit 1
+      interval: 2s
+      retries: 10
+      timeout: 10s
+
+  orchestration:
+    build: ./ServiceNotaire
+    ports:
+      - "8000:8000"
+    depends_on:
+      trouver-notaire:
+        condition: service_healthy
+      correction:
+        condition: service_healthy

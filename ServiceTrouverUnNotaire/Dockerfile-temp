@@ -1,0 +1,6 @@
+FROM adoptopenjdk/openjdk8:alpine-jre
+
+COPY target/ServiceNotaire-1.0-SNAPSHOT.jar /opt/ServiceNotaire.jar
+
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "/opt/ServiceNotaire.jar"]

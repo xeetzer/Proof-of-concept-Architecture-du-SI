@@ -1,0 +1,5 @@
+ch\hegarc\servicenotaire\trouver\service\TrouverNotaireService.class
+ch\hegarc\servicenotaire\trouver\webservice\TrouverNotaireWebService.class
+ch\hegarc\servicenotaire\trouver\app\Main.class
+ch\hegarc\servicenotaire\trouver\business\Notaire.class
+ch\hegarc\servicenotaire\trouver\service\ITrouverNotaireService.class

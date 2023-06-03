@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:parse>
+         <!--Optional:-->
+         <reference>Sinha, Arnab, et al. An Overview of Microsoft Academic Service (MAS) and Applications. Proceedings of the 24th International Conference on World Wide Web, 2015, pp. 243–246.</reference>
+      </web:parse>
+   </soapenv:Body>
+</soapenv:Envelope>

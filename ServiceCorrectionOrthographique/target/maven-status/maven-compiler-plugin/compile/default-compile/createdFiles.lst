@@ -1,0 +1,9 @@
+ch\hegarc\servicenotaire\correction\integration\BingSpellCheckResponse.class
+ch\hegarc\servicenotaire\correction\service\ICorrectionService.class
+ch\hegarc\servicenotaire\correction\webservice\CorrectionWebService.class
+ch\hegarc\servicenotaire\correction\integration\TextGearsGrammarCheckResponse.class
+ch\hegarc\servicenotaire\correction\integration\FlaggedTokens.class
+ch\hegarc\servicenotaire\correction\service\CorrectionService.class
+ch\hegarc\servicenotaire\correction\integration\TextGearsGrammarCheckError.class
+ch\hegarc\servicenotaire\correction\app\Main.class
+ch\hegarc\servicenotaire\correction\integration\TextGearsGrammarCheck.class
