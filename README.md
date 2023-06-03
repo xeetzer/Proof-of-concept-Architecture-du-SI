@@ -44,5 +44,5 @@ Pour finir cliquer sur le bouton "play" vert. La requête sera exécutée et la 
 ![L6vBGME3Dt.png](./images/L6vBGME3Dt.png)
 Le principe reste le même pour les 2 autres projets et les autres requêtes. Il est bien sûr possible d'utiliser d'autres valeurs dans les paramêtres.
 
-Les utilisateurs sont tout les notaires retournés par la requête "getAll" du ServiceTrouverNotaire. Le mots de passe de tout les utilisateur est le suivant: "motdepasse".
+Les nom d'utilistateurs sont tout les emails des notaires retournés par la requête "getAll" du ServiceTrouverNotaire. Le mots de passe de tout les utilisateur est le suivant: "motdepasse".
 ![wSXQ4Q3ukL.png](./images/wSXQ4Q3ukL.png)
