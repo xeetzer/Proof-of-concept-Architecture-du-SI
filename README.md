@@ -29,8 +29,9 @@ Installer le logiciel selon les instruction par défaut de l'installateur.
 
 ### 2. Importer les projet préfaits
 Les 3 fichiers XML ci-dessous se trouvant à la racine du projet sont des exportations de projet préfait pour chacun des services:
-2. [ServiceNotaire-soapui-project.xml](images/ServiceNotaire-soapui-project.xml) pour ServiceNotaire.
-1. [ServiceCorrection-soapui-project.xml](ServiceCorrection-soapui-project.xml) pour ServiceCorrectionOrthographique.
+
+1. [ServiceNotaire-soapui-project.xml](images/ServiceNotaire-soapui-project.xml) pour ServiceNotaire.
+2. [ServiceCorrection-soapui-project.xml](ServiceCorrection-soapui-project.xml) pour ServiceCorrectionOrthographique.
 3. [ServiceTrouverNotaire-soapui-project.xml](ServiceTrouverNotaire-soapui-project.xml) pour ServiceTrouverUnNotaire.
 
 #### Voici comment importer un projet dans SoapUI et exécuter une requête:
